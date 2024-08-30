@@ -2,8 +2,8 @@
   "DESIGN_NAME": "adder",
   "VERILOG_FILES": "dir::adder.v",
   "//CLOCK_PORT": "clk",
-  "CLOCK_PERIOD": 5.0,
-  "//BASE_SDC_FILE": "dir::comb.sdc",
+  "CLOCK_PERIOD": 7.0,
+  "FALLBACK_SDC_FILE": "dir::adder.sdc",
   "MAX_FANOUT_CONSTRAINT": 6,
   "FP_CORE_UTIL": 50,
   "//PL_TARGET_DENSITY_PCT": "expr::($FP_CORE_UTIL + 10.0)"
